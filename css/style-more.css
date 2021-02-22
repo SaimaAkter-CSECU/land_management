@@ -1,0 +1,180 @@
+body{
+  background: #ffffff !important;
+}
+.nav-pills .nav-link {
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  width: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #fc800a;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  width: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.btn-style{
+  border-radius: 15px;
+  width: 95%;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+.btn-design{
+  background-color: #ffffff;
+  color: #b99566;
+  border: 1px solid #b99566 !important;
+  border-radius: 15px !important;
+}
+.color{
+  color: #666666; 
+}
+.btn-design:hover{
+  color: #ffffff;
+  background: #b99566;
+}
+.deleteBtn{
+  cursor: pointer;
+}
+.deleteBtn:hover{
+  color: red;
+}
+.editBtn{
+  cursor: pointer;
+  padding: 0 10px
+}
+.editBtn:hover{
+  color: #0294b7;
+}
+.bootstrap-select button{
+  background-color: #ffffff !important;
+  font-size: .81rem;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* .bootstrap-select .dropdown-menu.show li:hover{
+  background-color: #fc800a !important;
+  color: #ffffff !important;
+} */
+.btn-light:not([disabled]):not(.disabled):active, .btn-light:not([disabled]):not(.disabled).active, .show>.btn-light.dropdown-toggle{
+  background-color: #ffffff !important;
+}
+.btn-light.dropdown-toggle:hover, .dropdown-toggle:focus{
+  background-color: #ffffff !important;
+}
+.bootstrap-select .dropdown-toggle:focus{
+  outline: none; 
+}
+
+
+.search_table tr td{
+  font-size: 1rem; 
+  padding: 0.5rem 1rem !important;
+}
+.search_table #display_transaction_table_body tr td{
+  font-size: 0.9rem !important;
+  font-weight: 500;
+}
+.dashboard-section .nav-pills button{
+  width: 100%; 
+  background: transparent;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  color: #8a8a8a; 
+  border-bottom: 1px solid #666666;
+}
+.dashboard-section .nav-pills button.active{
+  color: #b99566; 
+  background: transparent !important;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 0;
+}
+.dashboard-section .nav-pills button:hover{
+  color: #b99566; 
+  background: transparent !important;
+}
+.dashboard-section table tr td{
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.dashboard-section label{
+  font-size: 1rem; 
+  font-weight: 500;
+}
+.dashboard-section input.form-control, .dashboard-section select.form-control{
+  font-size: 1rem !important; 
+  color: #666666 !important;
+}
+
+
+
+/* Dashboard Design Starts */ 
+.card-counter{
+  box-shadow: 2px 2px 10px #DADADA;
+  margin: 5px;
+  padding: 20px 10px;
+  background-color: #fff;
+  height: 100px;
+  border-radius: 5px;
+  transition: .3s linear all;
+}
+.card-counter:hover{
+  box-shadow: 4px 4px 20px #DADADA;
+  transition: .3s linear all;
+}
+.card-counter.primary{
+  background-color: #007bff;
+  color: #FFF;
+}
+.card-counter.danger{
+  background-color: #ef5350;
+  color: #FFF;
+}  
+.card-counter.success{
+  background-color: #66bb6a;
+  color: #FFF;
+}  
+.card-counter.info{
+  background-color: #26c6da;
+  color: #FFF;
+}  
+.card-counter i{
+  font-size: 5em;
+  opacity: 0.2;
+}
+.card-counter .count-numbers{
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  font-size: 32px;
+  display: block;
+}
+.card-counter .count-name{
+  position: absolute;
+  right: 35px;
+  top: 65px;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.5;
+  display: block;
+  font-size: 18px;
+}
+/* Dashboard Design Ends */ 
+
+

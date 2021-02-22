@@ -1,0 +1,30 @@
+[23-Jan-2021 07:41:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php:84
+Stack trace:
+#0 /home/u526798151/domains/genair.com.bd/public_html/store/php/ui/message/get_customers_from_messages.php(36): Message->get_customer_from_messages('10')
+#1 {main}
+  thrown in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php on line 84
+[23-Jan-2021 07:41:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php:104
+Stack trace:
+#0 /home/u526798151/domains/genair.com.bd/public_html/store/php/ui/message/get_new_messagecounts_of_customers.php(31): Message->get_total_new_message_counts_between_store_and_customer('10')
+#1 {main}
+  thrown in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php on line 104
+[23-Jan-2021 07:41:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php:84
+Stack trace:
+#0 /home/u526798151/domains/genair.com.bd/public_html/store/php/ui/message/get_customers_from_messages.php(36): Message->get_customer_from_messages('10')
+#1 {main}
+  thrown in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php on line 84
+[23-Jan-2021 07:41:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php:104
+Stack trace:
+#0 /home/u526798151/domains/genair.com.bd/public_html/store/php/ui/message/get_new_messagecounts_of_customers.php(31): Message->get_total_new_message_counts_between_store_and_customer('10')
+#1 {main}
+  thrown in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php on line 104
+[23-Jan-2021 07:42:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php:84
+Stack trace:
+#0 /home/u526798151/domains/genair.com.bd/public_html/store/php/ui/message/get_customers_from_messages.php(36): Message->get_customer_from_messages('10')
+#1 {main}
+  thrown in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php on line 84
+[23-Jan-2021 07:42:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php:104
+Stack trace:
+#0 /home/u526798151/domains/genair.com.bd/public_html/store/php/ui/message/get_new_messagecounts_of_customers.php(31): Message->get_total_new_message_counts_between_store_and_customer('10')
+#1 {main}
+  thrown in /home/u526798151/domains/genair.com.bd/public_html/store/php/model/Message.php on line 104
